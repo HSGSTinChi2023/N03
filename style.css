@@ -1,0 +1,33 @@
+td{
+    user-select: none;
+}
+
+#gameBox{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#timer{
+    display: flex;
+    justify-content: center;
+}
+
+#startGame{
+    margin: 0 50%;
+}
+
+#gameProgress{
+    display: flex;
+    justify-content: center;
+}
+
+#endGame{
+    display: flex;
+    justify-content: center;
+}
+
+#story{
+    display: flex;
+    justify-content: center;
+}
