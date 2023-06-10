@@ -173,6 +173,7 @@ function init(){
         for(var j=0;j<boardInfo.numCol;j++){
             var currentCell = document.createElement("td");
             currentCell.classList.add("btn");
+            currentCell.classList.add("btn-lg");
             currentCell.classList.add("btn-secondary");
             currentCell.textContent = gameData[i][j];
             currentCell.id = hashLocation(i,j);

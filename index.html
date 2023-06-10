@@ -10,11 +10,12 @@
             integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp"
             crossorigin="anonymous"
         />
+        <link rel="stylesheet" type="text/css" href="https://cdn.rawgit.com/dreampulse/computer-modern-web-font/master/fonts.css">
         <link href="style.css" rel="stylesheet" />
     </head>
     <body>
         <div id="gameStatus">
-            <div id="story">
+            <div id="story" class="d-flex flex-wrap fs-6">
                 Trong 3 phút 30 giây, giải các phép tính bên dưới và xác định vị trí các đáp số tìm được trong ô. Các kết quả này được đặt theo hướng bất kỳ, kể cả chiều ngược và đường chéo.
             </div>
             <br>
@@ -24,14 +25,14 @@
             <br>
             <div id="gameProgress" >Found: 0</div>
             <br>
-            <div id="endGame"></div>
+            <div id="endGame" class="fs-5 fw-bold"></div>
         </div>
         <div id="gameBox">
-            <div id="questionsTable" class="table">
+            <div id="questionsTable" class="table fs-5">
                 <div id="q1">1. 888 x 888</div>
                 <div id="q2">2. 789 + 9876</div>
                 <div id="q3">3. 1000000 - 123</div>
-                <div id="q4">4. 36^2 * 63</div>
+                <div id="q4">4. 36 * 36 * 63</div>
                 <div id="q5">5. 69 * 99 * 33</div>
                 <div id="q6">6. 222222 + 626262</div>
                 <div id="q7">7. 6 * 42706</div>

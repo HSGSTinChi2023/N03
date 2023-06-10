@@ -30,4 +30,9 @@ td{
 #story{
     display: flex;
     justify-content: center;
+    font-family: "Computer Modern Serif", serif;
+}
+
+#questionsTable{
+    font-family: "Computer Modern Serif", serif;
 }
